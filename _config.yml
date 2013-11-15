@@ -1,0 +1,55 @@
+menu:
+  博客: /
+  存档: /archives
+  作品: /works
+  关于: /about
+
+widgets:
+- search
+
+
+excerpt_link: Read More
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: true
+  pubid:
+  facebook:
+  twitter:
+  google: true
+  pinterest:
+
+fancybox: true
+
+google_analytics:
+rss:
+
+comment_provider: duoshuo
+
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
+
+# Duoshuo comment
+duoshuo:
+  short_name: moo123
+
+society:
+  enable: true
+  github: https://github.com/yunlzheng
+  weibo: http://weibo.com/503error
+  google_plug: http://www.google.com
+
+#About Page
+about:
+  name:
+
+auto_change:
+  emable: true
