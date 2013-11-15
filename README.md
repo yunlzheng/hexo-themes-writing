@@ -1,6 +1,7 @@
 # Writing
 
-Hexo主题集合之writing
+Hexo主题writing
+
 基于[light](https://github.com/tommy351/hexo-theme-light)的个人博客主题
 
 ## Demo
@@ -99,4 +100,6 @@ about:
 ## Features
    
 * 可选disqus/多说第三方评论
-*  更富交互性的导航   
+*  更富交互性的导航 
+
+以此纪念逝去的[writing.io](https://github.com/chloerei/writings)  
