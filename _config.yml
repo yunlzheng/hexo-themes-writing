@@ -25,7 +25,7 @@ addthis:
 
 fancybox: true
 
-google_analytics:
+google_analytics: UA-37439567-4
 rss:
 
 comment_provider: duoshuo
