@@ -1,6 +1,11 @@
 <div class='profile'>
-  <h1><a href="<%- config.root %>"><img class="logo" src="/css/img/logo.png"/><%= config.title %></a></h1>
-  <h2><a href="<%- config.root %>"><% if (config.subtitle){ %><%= config.subtitle %><% } %></a></h2>
+  <h1><a href="<%- config.root %>"><img class="logo" src="/css/img/logo.png"/></a></h1>
+  <h2>
+  	<a href="<%- config.root %>">
+  	<%= config.title %>
+  	<% if (config.subtitle){ %><%= config.subtitle %><% } %>
+  	</a>
+  </h2>
 </div>
 <nav id="main-nav">
   <ul class='inner'>
