@@ -4,7 +4,6 @@
   <% } %>
   <div class="post-content">
     <header>
-      
       <%- partial('post/title') %>
     </header>
     <div class="entry">
@@ -39,5 +38,9 @@
     </footer>
   </div>
 </article>
+
+<% if (!index){ %>
+  <div id="profile"></div>
+<% } %>
 
 <%- partial('comment') %>
