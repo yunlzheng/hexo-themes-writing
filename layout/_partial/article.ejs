@@ -20,14 +20,20 @@
             <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
         </div>
         <% if (item.comment && config.disqus_shortname){ %>
-        <div class="alignleft">
-          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
-        </div>
+          <div class="alignleft">
+            <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
+          </div>
+        <% } %>
+        <% if (theme.comment_provider == "duoshuo"){ %>
+          <div class="alignleft"> 
+            <span class="ds-thread-count" data-thread-key="<%- config.root %><%- item.path%>">&nbsp;
+            </span>
+          </div>
         <% } %>
       <% } else { %>
-        <%- partial('post/category') %>
-        <%- partial('post/tag') %>
-        <%- partial('post/share') %>
+          <%- partial('post/category') %>
+          <%- partial('post/tag') %>
+          <%- partial('post/share') %>
       <% } %>
       <div class="clearfix"></div>
     </footer>

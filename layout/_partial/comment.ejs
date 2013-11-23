@@ -2,11 +2,7 @@
 <section id="comment">
   <h1 class="title"><%= __('comment') %></h1>
 
-  <% if (theme.comment_provider == "facebook") {
-      if (theme.facebook) { %>
-      <%- partial('_partial/facebook_comment', {fbConfig: theme.facebook}) %>
-      <% } %>
-  <% } else if(theme.comment_provider == "duoshuo") {%>
+  <% if(theme.comment_provider == "duoshuo") {%>
       <%- partial('_partial/duoshuo_comment.ejs', {dsConfig: theme.duoshuo}) %>
   <% } else if(config.disqus_shortname) { %>
   <div id="disqus_thread">
